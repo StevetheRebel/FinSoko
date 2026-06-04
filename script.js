@@ -880,19 +880,6 @@ function initGsapAnimations() {
         ease: 'power3.out',
     });
 
-    // Metric cards entrance (if not already animated)
-    gsap.from('.metric-card', {
-        scrollTrigger: {
-            trigger: '.metrics-row',
-            start: 'top 85%',
-        },
-        y: 40,
-        opacity: 0,
-        duration: 0.7,
-        stagger: 0.15,
-        ease: 'power3.out',
-        delay: 1.2,
-    });
 }
 
 // ============================================
